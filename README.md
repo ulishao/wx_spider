@@ -63,6 +63,7 @@ def wx_get(x):
         # print urllib.unquote(i)
         html = requests.get(url=i,headers=header,proxies=proxies).content
         print '标题:'+etree.HTML(html).xpath('//title/text()')[0]
-```
 wx_get("张淋")
-运行
+# 运行
+```
+
